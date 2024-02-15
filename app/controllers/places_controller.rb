@@ -8,9 +8,9 @@ class PlacesController < ApplicationController
     @place = Place.where({"id" => params["id"]})
   end
 
-  def new
-    @place = Place.new
-  end
+#  def new
+ #   @place = Place.new
+#  end
 
   def create
     @place = Place.new
